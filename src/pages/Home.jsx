@@ -19,7 +19,7 @@ function Home() {
         setpassword(e.target.value)
     }
 
-    function handleSignIn() {
+    function handleSignUp() {
         if (!email || !password) {
             seterror('Email and password both are required')
             return
@@ -38,7 +38,7 @@ function Home() {
             })
     }
 
-    function handleSignUp() {
+    function handleSignIn() {
         if (!email || !password) {
             seterror('Email and password both are required')
             return
